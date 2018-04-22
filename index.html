@@ -137,24 +137,70 @@ body {
 //listing start here
 //format: Wallet Address, Escrow Address, Catalogue URL
 
-<div class="dropdown">
-    <button class="dropbtn">Verified Seller 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <div class="header">
-        <h2>0xdCdb96aC3390eF9168a62e997000Da1b7147CcB1</h2>
-      </div>   
-      <div class="row">
-        <div class="column">
-          <h3>Catalogue</h3>
-          <a href="https://nidscom.io" class="text-success">0x3258d5F76D68dCcf5Fd6Bef1a1b019e226f9ba57</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-       </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Verified Escrow & Seller</h2>
+  <p><strong>Note:</strong>Submit a pull request on Escrow's Github repo to verify as Seller. Seller verify by Escrow.</p>
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#escrow">Escrow: 0xdCdb96aC3390eF9168a62e997000Da1b7147CcB1</button>
+  <div id="escrow" class="collapse">
+  <p></p>
+  <a href="https://nidscom.io">Website</a>
+  </br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">0xdCdb96aC3390eF9168a62e997000Da1b7147CcB1</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body"><a href="https://nidscom.io">Website</a></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
     </div>
   </div> 
+</div>
+</div>
+
+</body>
+</html>
+
     
 
 </body>
